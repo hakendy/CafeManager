@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{01450C5E-CBB6-4F96-AE76-175D71FE7588}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuanLyQuanCafe</RootNamespace>
+    <AssemblyName>QuanLyQuanCafe</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v17.1" />
+    <Reference Include="DevExpress.Data.v17.1" />
+    <Reference Include="DevExpress.Printing.v17.1.Core" />
+    <Reference Include="DevExpress.Utils.v17.1" />
+    <Reference Include="DevExpress.XtraBars.v17.1" />
+    <Reference Include="DevExpress.Sparkline.v17.1.Core" />
+    <Reference Include="DevExpress.XtraEditors.v17.1" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DAO\" />
+    <Folder Include="DTO\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\402-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Actions-mail-mark-task-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Admin-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Break-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Break-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Button-Close-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\cafe-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\camera-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\cancel-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\close-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\coffee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Coffee-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\delete-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Ecommerce-Bill-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\hotdog-icon-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\if_Money_56265.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Juice-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\menu-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\milkshake-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Order-history-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\picture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\picture-01-256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Save-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Save-icon_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\secrecy-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\sinhto-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Steak-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Thanksgiving_Add_-_On-28-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Waiter_48px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
